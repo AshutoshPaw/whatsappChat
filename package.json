@@ -2,8 +2,10 @@
   "name": "whatsapp_businesss_backend",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
+    "start": "node server.js",
+    "heroku-postbuild": "npm install --force",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
